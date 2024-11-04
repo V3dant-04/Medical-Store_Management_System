@@ -29,17 +29,18 @@ This project demonstrates the use of essential data structures:
 medical-store-management/
 ├── src/
 │   ├── main/
-│   │   ├── java/
-│   │   │   └── medicalmanagement/
-│   │   │       ├── Main.java               # Main application entry point
-│   │   │       ├── InventoryManager.java    # Manages inventory with HashMap
-│   │   │       ├── BillingManager.java      # Handles customer billing and orders
-│   │   │       ├── SupplierManager.java     # Manages suppliers using Stack
-│   │   │       ├── ReportManager.java       # Generates reports on inventory
-│   │   │       └── Medicine.java            # Medicine entity
-│       
-└── README.md
+│   │   └── java/
+│   │       └── medicalmanagement/
+│   │           ├── Main.java
+│   │           ├── InventoryManager.java
+│   │           ├── Medicine.java
+│   │           ├── BillingManager.java
+│   │           ├── SupplierManager.java
+│   │           └── ReportManager.java
+├── README.md
+├── pom.xml (if using Maven)
 └── .gitignore
+
 ```
 ## Setup Instructions
 1. Clone this repository:
