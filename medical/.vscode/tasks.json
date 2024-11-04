@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Java",
+            "type": "shell",
+            "command": "javac -d . src/medicalmanagement/Inventory.java",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Build inventory.dll",
+            "type": "shell",
+            "command": "gcc -shared -o inventory.dll -I\"%JAVA_HOME%/include\" -I\"%JAVA_HOME%/include/win32\" src/Inventory.c",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        }
+    ]
+}

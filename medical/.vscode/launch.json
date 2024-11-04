@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "medicalmanagement.Main",
+            "projectName": "medical"
+        },
+        {
+            "type": "java",
+            "name": "MainFrame",
+            "request": "launch",
+            "mainClass": "medicalmanagement.MainFrame",
+            "projectName": "medical"
+        },
+        {
+            "type": "java",
+            "name": "Launch MedicalManagement",
+            "request": "launch",
+            "mainClass": "medicalmanagement.Inventory",
+            "projectName": "medical",
+            "args": "",
+            "vmArgs": "-Djava.library.path=${workspaceFolder}"
+        }
+    ]
+}
